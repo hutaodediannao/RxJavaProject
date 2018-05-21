@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:text="基本使用方法" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray"
+            android:onClick="normal"
+            android:text="普通使用" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="map"
+            android:text="map类型遍历使用" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="flatMap"
+            android:text="flatMap自定义遍历使用" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_blue_bright"
+            android:onClick="filter"
+            android:text="flatMap自定义遍历使用" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_purple"
+            android:onClick="doOnNext"
+            android:text="doOnNext准许执行任务之前做一些事情" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:text="线程调度使用方法" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_purple"
+            android:onClick="singleThreadTest"
+            android:gravity="center"
+            android:text="配合安卓线程调度器使用" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="muiltThreadTest"
+            android:gravity="center"
+            android:text="多任务配合安卓线程调度器使用" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
